@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-1.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?artistName">2Pac</ITEM>
+  <ITEM ANGIE-VAR="?artistId">8504de12-c628-4534-8485-e760ac7eacac</ITEM>
+  <ITEM ANGIE-VAR="?beginDate"/>
+  <ITEM ANGIE-VAR="?endDate"/></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?artistName">2Pac</ITEM>
+  <ITEM ANGIE-VAR="?artistId">382f1005-e9ab-4684-afd4-0bdae4ee37f2</ITEM>
+  <ITEM ANGIE-VAR="?beginDate">1971-06-16</ITEM>
+  <ITEM ANGIE-VAR="?endDate">1996-09-13</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?artistName">InntimateSound</ITEM>
+  <ITEM ANGIE-VAR="?artistId">31286040-9e0c-451a-8316-31dfe932ec98</ITEM>
+  <ITEM ANGIE-VAR="?beginDate"/>
+  <ITEM ANGIE-VAR="?endDate"/></RECORD></RESULT>

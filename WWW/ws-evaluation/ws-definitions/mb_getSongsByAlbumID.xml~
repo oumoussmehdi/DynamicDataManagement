@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ws>
+	<prefix name="w" value="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<prefix name="y" value="http://mpii.de/yago/resource/"/>
+
+
+<definition>
+        <triple subject="?recording" 
+            predicate="w:label" 
+            object="?recordingName"/>
+        <triple subject="?release" 
+            predicate="y:hasId" 
+            object="?releaseID"/>
+        <triple subject="?releaseID" 
+            predicate="w:type" 
+            object="y:musicBrainsId"/>
+        <triple subject="?recordingID" 
+            predicate="w:type" 
+            object="y:musicBrainsId"/>
+    </definition>
+    
+
+	<!-- variables in the head: the order matters:
+         the first variables should be the input variables, followed by the output variables
+         also, for the input variables the order should match the order in the URLs of the calls
+     -->
+    <headVariables>
+        <!--<variable type="inut" name="?releaseID"/>-->
+	<variable type="input" name="?releaseID"/>
+	<variable type="output" name="?recordingID"/>
+        <variable type="output" name="?recordingName"/>
+    </headVariables>
+
+	<call>
+        <part type="constant" value="
+http://musicbrainz.org/ws/2/release/"/>
+        <part type="input" variable="?releaseID" class="release" separator="+" />
+	<part type="constant" value="?inc=recordings"/>
+	</call>
+	
+	<transformation file="mb_getSongsByAlbumID.xsl"/>
+
+</ws>
+

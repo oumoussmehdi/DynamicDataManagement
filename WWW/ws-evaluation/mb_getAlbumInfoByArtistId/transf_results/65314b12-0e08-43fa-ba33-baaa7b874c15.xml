@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-1.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?artistId">65314b12-0e08-43fa-ba33-baaa7b874c15</ITEM>
+  <ITEM ANGIE-VAR="?albumId">4db2ea44-1ea1-40f6-a017-a1ea23485bb0</ITEM>
+  <ITEM ANGIE-VAR="?albumName">I'm Your Man</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?artistId">65314b12-0e08-43fa-ba33-baaa7b874c15</ITEM>
+  <ITEM ANGIE-VAR="?albumId">36e55afe-2231-463f-935e-bfb08c72d585</ITEM>
+  <ITEM ANGIE-VAR="?albumName">Songs From a Room</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?artistId">65314b12-0e08-43fa-ba33-baaa7b874c15</ITEM>
+  <ITEM ANGIE-VAR="?albumId">38bfb1ad-e258-4ac1-afbd-fa83a6452a55</ITEM>
+  <ITEM ANGIE-VAR="?albumName">Songs of Leonard Cohen</ITEM></RECORD></RESULT>

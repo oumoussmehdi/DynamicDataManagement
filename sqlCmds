@@ -1,0 +1,28 @@
+CREATE DATABASE DCM;
+
+use DCM;
+
+CREATE TABLE 
+mb_getArtistInfoByName (
+artistName VARCHAR(100) ,
+artistId VARCHAR(100),
+beginDate VARCHAR(100) ,
+endDate VARCHAR(100) 
+);
+
+CREATE TABLE 
+mb_getAlbumInfoByArtistId (
+artistId VARCHAR(100) ,
+albumId VARCHAR(100) ,
+albumName VARCHAR(100)
+);
+
+CREATE TABLE 
+mb_getSongsByAlbumID (
+releaseID VARCHAR(100) ,
+recordingID VARCHAR(100),
+recordingName VARCHAR(100)
+);
+
+
+
